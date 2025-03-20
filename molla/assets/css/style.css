@@ -53,8 +53,9 @@
 /*--------------------- END of TABLE OF CONTENTS  ---------- */
 /* Main CSS File */
 /* Fonts */
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
-/* font-family: 'Poppins', sans-serif; */
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
 /*--------------------- 1.General Styles ---------- */
 html {
   font-size: 62.5%;
@@ -63,7 +64,8 @@ html {
   font-size-adjust: 100%; }
 
 body {
-  font: normal 300 1.4rem/1.86 "Poppins", sans-serif;
+  font: normal 300 1.4rem/1.86 "Roboto";
+  font-family: Arial, Helvetica, sans-serif;
   color: #666666;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
@@ -2250,13 +2252,13 @@ blockquote {
 
 /* Header 2 */
 a {
-  font-family: 'Poppins'; }
+  font-family: 'Roboto'; }
 
 p {
   margin-bottom: 0;
   font-size: 1.4rem;
   font-weight: 300;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: 0;
   color: #777; }
 
@@ -2273,7 +2275,7 @@ p {
       height: 38px; }
     .header-2 .header-search-extended .form-control {
       padding: 1.2rem 2.4rem 1rem 2rem;
-      font-family: 'Poppins';
+      font-family: 'Roboto';
       letter-spacing: -.01em; }
     .header-2 .header-search-extended .btn {
       height: 42px;
@@ -6223,7 +6225,7 @@ a:focus {
   .header-31 .menu li ul {
     margin-top: 0; }
   .header-31 .menu .banner-title {
-    font-family: 'Poppins',sans-serif; }
+    font-family: 'Roboto',sans-serif; }
   .header-31 .menu .banner-content.banner-content-top {
     text-align: left; }
   .header-31 figure {
@@ -6289,7 +6291,7 @@ a:focus {
   .header-31 .cart-text {
     margin-left: 1.4rem;
     margin-top: -0.6rem;
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 1.4rem;
     color: inherit;
     letter-spacing: -.02em; }
@@ -6415,7 +6417,7 @@ a:focus {
   visibility: hidden;
   opacity: 0;
   border-radius: 0;
-  border: none;
+  border: 1px solid black;
   background-color: #fafafa;
   font-size: 3rem;
   transition: all 0.4s ease;
@@ -6600,7 +6602,7 @@ a:focus {
   background-repeat: no-repeat; }
   .page-header h1 {
     color: #333333;
-    font: normal 400 3.2rem/1.1 "Poppins", sans-serif;
+    font: normal 400 3.2rem/1.1 "Roboto", sans-serif;
     letter-spacing: -.025em;
     margin-bottom: 0; }
     .page-header h1 span {
@@ -7215,7 +7217,7 @@ a:focus {
   letter-spacing: 0;
   font-size: 1.4rem;
   min-width: 0;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Roboto", sans-serif; }
   .btn-link.btn-link-dark {
     color: #333; }
   .btn-link:hover, .btn-link:focus,
@@ -8530,7 +8532,7 @@ a:focus {
 .product.product-10 .product-title a {
   font-size: 1.3rem;
   font-weight: 400;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: 0;
   color: #333; }
   .product.product-10 .product-title a:hover, .product.product-10 .product-title a:focus {
@@ -8539,18 +8541,18 @@ a:focus {
   margin-top: .8rem;
   font-size: 1.3rem;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: 0;
   color: #333333; }
 .product.product-10 .new-price {
   font-size: 1.3rem;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: 0; }
 .product.product-10 .old-price {
   font-size: 1.3rem;
   font-weight: 400;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: 0;
   text-decoration: none; }
 .product.product-10 .product-label {
@@ -8558,7 +8560,7 @@ a:focus {
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: 700;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: -.01em; }
 .product.product-10 .product-label.label-deal {
   color: #fff;
@@ -10102,7 +10104,7 @@ small.form-text {
 .element-type {
   font-size: 1.3rem;
   font-weight: 400;
-  font-family: 'Poppins';
+  font-family: 'Roboto';
   letter-spacing: .01em;
   color: #666;
   text-transform: uppercase; }

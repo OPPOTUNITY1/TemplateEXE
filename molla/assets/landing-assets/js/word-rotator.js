@@ -1,4 +1,4 @@
-
+wordaddEventListener
 /*
 Plugin Name:    Animated Headlines
 Written by:     Codyhouse - (https://codyhouse.co/demo/animated-headlines/index.html)
